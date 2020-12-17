@@ -50,6 +50,10 @@ ul.speakers{
     text-align: justify;
 }
 
+div.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
 .speaker-card{
         background-position: center;
         border-top: 3px solid #22333B;
@@ -62,11 +66,9 @@ ul.speakers{
         border-width: 3px;
         border-color: black;
         background-position: center;
-        width: 425px;
-    
+        width: 425px;    
       }
    
-}
 .talks-card{
     border-radius: 25px;
     text-align: justify;
@@ -75,6 +77,8 @@ ul.speakers{
     border-color: black;
     background-position: center;
 }
+
+
 ul{
     list-style-type: none;
 }
@@ -89,7 +93,8 @@ footer.form{
   height: 125px;
   margin: 0 auto;
 }
-
+@media (min-width:520px) {
+}
 @media (min-width: 600px) {
     }
 
