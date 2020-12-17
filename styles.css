@@ -47,6 +47,13 @@ div.schedule {
   border-width: 3px;
   border-color: black;
 }
+div.schedule-date {
+  font-weight: bold;
+}
+div.schedule-content{
+    font-size: 12px;
+    text-align: center;
+}
 ul.speakers {
   list-style: inline;
   margin-top: 0;
