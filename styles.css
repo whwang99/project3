@@ -74,6 +74,7 @@ footer.form{
     padding: 20px;
   width: 350px;
   height: 125px;
+  margin: 0 auto;
 }
 @media (min-width: 600px) {
     }
