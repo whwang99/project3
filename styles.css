@@ -1,15 +1,18 @@
 header {
-    position: relative;
-    border: 
+    border-style: d;
+    border-width: 3px;
+    border-color: black;
 }
 img{
 
 }
 nav{
-
+    
 }
 main{
-
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
 }
 h2{
 
