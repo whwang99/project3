@@ -90,6 +90,10 @@ div.table {
     background-position: center;
     width: 425px;
 }
+img.author-photo{
+    width: 400px;
+    
+}
 ul {
   list-style-type: none;
 }
