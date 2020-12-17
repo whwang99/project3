@@ -53,8 +53,7 @@ li.speaker-card{
     border-width: 3px;
     border-color: black;
 
-    
-
+    position: relative;
 }
 li.talks-card{
     border-radius: 25px;
