@@ -14,11 +14,7 @@ main{
  
 
 ul.speakers{
-    border-radius: 25px;
     text-align: justify;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
 }
 
 li.manuel-lima{
