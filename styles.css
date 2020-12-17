@@ -76,6 +76,13 @@ div.table {
   height: 300px;
   overflow: scroll;
 }
+img.speaker-photo{
+    float: left;
+    width:  200px;
+    height: 250px;
+    object-fit: cover;
+    padding: 15px;
+}
 .talks-card {
     background-position: center;
     border-top: 3px solid #22333B;
@@ -87,12 +94,11 @@ div.table {
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    background-position: center;
     width: 425px;
 }
 img.author-photo{
     width: 400px;
-    
+    position:center;
 }
 ul {
   list-style-type: none;
