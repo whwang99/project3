@@ -47,11 +47,18 @@ div.schedule{
     border-color: black;
 }
 ul.speakers{
+    list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
     text-align: justify;
-}
+    min-width: 696px;
+        list-style: none;
+        padding-top: 20px;
 
+        }
 div.table {
-	display: table;   /* Allow the centering to work */
+	display: table;
 	margin: 0 auto;
 }
 .speaker-card{
