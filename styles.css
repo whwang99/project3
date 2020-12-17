@@ -18,14 +18,16 @@ ul{
 h2{
 
 }
-.form{
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-}
 footer{
     border-style: solid;
     border-width: 3px;
     border-color: black;
 }
+
+.form{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
 
