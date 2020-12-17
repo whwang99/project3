@@ -10,6 +10,7 @@ nav{
     
 }
 main{
+    list-style: none;
     border-style: solid;
     border-width: 3px;
     border-color: black;
@@ -18,11 +19,9 @@ h2{
 
 }
 
-li{
+footer{
     list-style-type: none;
     border-style: solid;
     border-width: 3px;
     border-color: black;
 }
-footer {
-    
