@@ -10,18 +10,22 @@ nav{
     
 }
 main{
-    list-style: none;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
+    
+}
+ul{
+    list-style-type: none;
 }
 h2{
 
 }
-
-footer{
-    list-style-type: none;
+.form{
     border-style: solid;
     border-width: 3px;
     border-color: black;
 }
+footer{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
