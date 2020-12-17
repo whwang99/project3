@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: 'JetBrains Mono', monospace;
 }
+@media (min-width: %) {
 header {
   border-style: solid;
   border-width: 3px;
@@ -122,9 +123,12 @@ footer.form {
   height: 125px;
   margin: 0 auto;
 }
-@media (min-width: 520px) {
+
 }
 
-
-@media (min-width: 600px) {
+@media (min-width: 800px) {
+  body {
+    background-color: gold;
+  }
 }
+
