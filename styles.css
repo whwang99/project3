@@ -3,34 +3,18 @@ header {
     border-width: 3px;
     border-color: black;
 }
-img{
-
-}
-nav{
-    
-}
-main{
-}
- 
-
 ul.speakers{
     text-align: justify;
 }
-
-li.manuel-lima{
+li.speaker-card{
     border-radius: 25px;
     text-align: justify;
     border-style: solid;
     border-width: 3px;
     border-color: black;
 }
-
-
 ul{
     list-style-type: none;
-}
-h2{
-
 }
 footer.form{ 
     border-radius: 25px;
