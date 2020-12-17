@@ -1,108 +1,110 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 header {
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    text-align: center;
-    position: relative;
-    left: 100px;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
 }
-div.tickets{
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    text-align: center;
-    position: fixed;
-    top: 180px;
-    right: 200px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+div.tickets {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  text-align: center;
+  position: fixed;
+  top: 180px;
+  right: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
-div.about{
-    position: relative;
-      left: 550px;
-      width:600px;
-      height: 600px;
-      text-align: center;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
+div.about {
+  position: relative;
+  left: 550px;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
 }
-div.schedule{
-    position: relative;
-    left: 50px;
-    width:600px;
-    height: 600px;
-    text-align: center;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
+div.schedule {
+  position: relative;
+  left: 50px;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
 }
-ul.speakers{
-    list-style: none;
+ul.speakers {
+  list-style: inline;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-    text-align: justify;
-    min-width: 696px;
-        list-style: none;
-        padding-top: 20px;
-
-        }
-div.table {
-	display: table;
-	margin: 0 auto;
+  text-align: justify;
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
 }
-.speaker-card{
-        background-position: center;
-        border-top: 3px solid #22333B;
-        margin-bottom: 24px;
-        padding: 12px;
-        transition: all 300ms ease-in;
-        border-radius: 25px;
-        text-align: justify;
-        border-style: solid;
-        border-width: 3px;
-        border-color: black;
-        background-position: center;
-        width: 425px;    
-      }
-   
-.talks-card{
+div.table {
+  display: table;
+  margin: 0 auto;
+}
+.speaker-card {
+  background-position: center;
+  border-top: 3px solid ;
+    margin-bottom: 24px;
+  padding: 12px;
+  transition: all 300ms ease-in;
+  border-radius: 25px;
+  text-align: left;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  background-position: center;
+  width: 425px;
+  height: 300px;
+  overflow: scroll;
+}
+.talks-card {
+    background-position: center;
+    border-top: 3px solid #22333B;
+    margin-bottom: 24px;
+    padding: 12px;
+    transition: all 300ms ease-in;
     border-radius: 25px;
-    text-align: justify;
+    text-align: left;
     border-style: solid;
     border-width: 3px;
     border-color: black;
     background-position: center;
+    width: 425px;
 }
-
-
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
-footer.form{ 
-    border-radius: 25px;
-    text-align: justify;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    padding: 20px;
+footer.form {
+  border-radius: 25px;
+  text-align: justify;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  padding: 20px;
   width: 350px;
   height: 125px;
   margin: 0 auto;
 }
-@media (min-width:520px) {
+@media (min-width: 520px) {
 }
 @media (min-width: 600px) {
-    }
-
-
+}
