@@ -4,21 +4,39 @@ header {
     border-color: black;
     text-align: center;
     position: relative;
-    display: inline-block;
+    left: 100px;
     width: 500px;
     height: 500px;
     border-radius: 50%;
 }
+a.tickets{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    text-align: center;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
 div.about{
-    border-radius: 25px;
-    text-align: justify;
+    position: relative;
+      left: 700px;
+      width:600px;
+      height: 600px;
+      text-align: center;
+    border-radius: 50%;
     border-style: solid;
     border-width: 3px;
     border-color: black;
 }
 div.schedule{
-    border-radius: 25px;
-    text-align: justify;
+    position: relative;
+    left: 200px;
+    width:600px;
+    height: 600px;
+    text-align: center;
+    border-radius: 50%;
     border-style: solid;
     border-width: 3px;
     border-color: black;
