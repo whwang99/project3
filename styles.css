@@ -3,20 +3,18 @@
   font-family: "JetBrains Mono", monospace;
 }
 
-a:link {
-  text-decoration: none;
-}
+
 
 header {
   border-style: solid;
   border-width: 5px;
-  border-color: black;
-  width: 350px;
-  height: 350px;
+  border-color: lightblue;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
-  
 }
 h1{
+  color: lightblue;
   text-align: center;
   vertical-align: bottom;
   line-height: 275px;}
@@ -26,6 +24,14 @@ nav{
   vertical-align: middle;
 font-size: 13px;
 }
+a:link {
+  text-decoration: none;
+  color:black
+}
+a:visited{
+  text-decoration: none;
+  color: black
+}
 
 /*I just based this off of my iphone7 how to make it adaptable across phones*/
 
@@ -34,6 +40,7 @@ font-size: 13px;
   border-radius: 50%;
   border-width: 5px;
   border-color:coral;
+  background-color:white;
   text-align: center;
   position: fixed;
   top: 180px;
@@ -65,10 +72,8 @@ font-size: 13px;
 }
 
 div.about {
-  position: relative;
-  left: 550px;
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
   text-align: center;
   border-radius: 50%;
   border-style: solid;
