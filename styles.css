@@ -132,8 +132,8 @@ text-align: center;
 }
 /*why is the center align... not centered???*/
 
-ul.speakers {
-list-style: inline;
+.speakers-card{
+  list-style: inline;
   text-align: justify;
   width: 350px;
   list-style: none;
@@ -141,6 +141,12 @@ list-style: inline;
   position: center;
 }
 .speaker-card {
+list-style: inline;
+  text-align: justify;
+  width: 350px;
+  list-style: none;
+  padding-left: 18px;
+  position: center;
   background-position: center;
   border-top: 3px solid;
   margin-bottom: 24px;
@@ -152,10 +158,11 @@ list-style: inline;
   border-width: 3px;
   border-color: black;
   background-position: center;
-  width: 425px;
+  width: 450px;
   height: 300px;
   overflow: scroll;
 }
+
 img.speaker-photo {
   float: left;
   width: 200px;
