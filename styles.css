@@ -37,12 +37,22 @@ nav{
 }
 a:link {
   text-decoration: none;
-  color:white;
+  color:black;
 }
 a:visited{
   text-decoration: none;
+  color:black;
+}
+a.navigation-bar:link{
+  text-decoration: none;
   color:white;
 }
+
+a.navigation-bar:visited{
+  text-decoration: none;
+  color:white;
+}
+
 
 /*I just based this off of my iphone7 
 how to make it adaptable across phones*/
@@ -231,15 +241,6 @@ nav{
   color: white
   
 }
-a:link {
-  text-decoration: none;
-  color:white;
-}
-a:visited{
-  text-decoration: none;
-  color:white;
-}
-
 #about{
   width: 540px;
   height: 540px;
