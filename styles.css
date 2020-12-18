@@ -20,21 +20,20 @@ h1{
   text-align: center;
   vertical-align: bottom;
   line-height: 275px;}
-
+ /* how to align + do we need hamburger menu*/
 nav{
   text-align: center;
   vertical-align: middle;
-
 font-size: 13px;
 }
 
 /*I just based this off of my iphone7 how to make it adaptable across phones*/
 
-#tickets {
+#tickets:link{
   border-style: solid;
   border-radius: 50%;
   border-width: 5px;
-  border-color: black;
+  border-color:coral;
   text-align: center;
   position: fixed;
   top: 180px;
@@ -46,6 +45,12 @@ font-size: 13px;
   line-height: 150px;
 }
 
+#tickets:visited{
+  text-decoration: none;
+}
+#tickets:hover{
+  background color: coral
+}
 div.about {
   position: relative;
   left: 550px;
