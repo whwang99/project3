@@ -293,5 +293,12 @@ nav{
 
 /* I simply do not understand how to arrange the cards 
 I still think about this like photoshop....*/
+
+/*element.style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
 }
  
