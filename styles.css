@@ -29,7 +29,7 @@ font-size: 13px;
 
 /*I just based this off of my iphone7 how to make it adaptable across phones*/
 
-#tickets:link{
+.buy-tickets-button:link{
   border-style: solid;
   border-radius: 50%;
   border-width: 5px;
@@ -44,13 +44,26 @@ font-size: 13px;
   vertical-align: middle;
   line-height: 150px;
 }
-
-#tickets:visited{
+.buy-tickets-button:visited{
   text-decoration: none;
+  color: coral;
 }
-#tickets:hover{
-  background color: coral
+.buy-tickets-button:hover{
+  background-color: coral;
+  color: white;
+  
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 5px;
+  border-color:coral;
+  text-align: center;
+  position: fixed;
+  top: 180px;
+  right: 7px;
+  width: 150px;
+  height: 150px;
 }
+
 div.about {
   position: relative;
   left: 550px;
