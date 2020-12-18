@@ -10,7 +10,8 @@ header {
   width: 360px;
   height: 360px;
   border-radius: 50%;
-  position: center;
+  position: left;
+  margin: 10px;
 }
 
 h1{
@@ -18,8 +19,9 @@ h1{
   text-align: center;
   vertical-align: bottom;
   line-height: 320px;
-position: center;
+  position:left;
 }
+
  /* how to align + do we need hamburger menu,
  why is it that the nav is not inside the header 
 even though html is dictating it as such?*/
@@ -85,8 +87,8 @@ how to make it adaptable across phones*/
   text-align: center;
   vertical-align: middle;
   line-height: 200px;
-  position: center;
-  padding:12px;
+  position: left;
+  margin: 10px;
 }
 
 /* struggling with centering content in the middle of the box!*/
@@ -107,7 +109,8 @@ how to make it adaptable across phones*/
   border-style: solid;
   border-width: 5px;
   border-color: purple;
-  color: purple
+  color: purple;
+  margin: 10px;
 }
 
 div.schedule-date {
@@ -120,10 +123,15 @@ div.schedule-content {
   color: purple
 }
 #speakers{
-position: center;
+position: left;
+display: table;
+width: 300px;
+}
+div.table {
+  
 }
 ul.speakers {
-  list-style: inline;
+list-style: inline;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -132,10 +140,7 @@ ul.speakers {
   list-style: none;
   padding-top: 20px;
 }
-div.table {
-  display: table;
-  margin: 0 auto;
-}
+
 .speaker-card {
   background-position: center;
   border-top: 3px solid;
@@ -160,7 +165,7 @@ img.speaker-photo {
   padding: 15px;
 }
 .talks-card {
-  background-position: center;
+ position: left;
   border-top: 3px solid #22333B;
   margin-bottom: 24px;
   padding: 12px;
@@ -171,6 +176,7 @@ img.speaker-photo {
   border-width: 3px;
   border-color: black;
   width: 425px;
+  
 }
 img.author-photo {
   width: 400px;
