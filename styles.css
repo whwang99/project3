@@ -3,17 +3,16 @@
   font-family: "JetBrains Mono", monospace;
 }
 
-
-
 header {
   border-style: solid;
   border-width: 5px;
   border-color: lightblue;
-  width: 320px;
-  height: 320px;
+  width: 360px;
+  height: 360px;
   border-radius: 50%;
   position: center;
 }
+
 h1{
   color: lightblue;
   text-align: center;
@@ -29,11 +28,11 @@ font-size: 13px;
 }
 a:link {
   text-decoration: none;
-  color:black
+  color:black;
 }
 a:visited{
   text-decoration: none;
-  color: black
+  color: black;
 }
 
 /*I just based this off of my iphone7 how to make it adaptable across phones*/
@@ -70,9 +69,9 @@ a:visited{
   position: fixed;
 }
 
-div.about {
-  width: 365px;
-  height: 365px;
+#about{
+  width: 360px;
+  height: 360px;
   border-radius: 50%;
   border-style: solid;
   border-width: 5px;
@@ -83,23 +82,30 @@ div.about {
   line-height: 200px;
   position: center;
 }
-div.schedule {
+
+#schedule{
   position: center;
-  left: 50px;
-  width: 365px;
-  height: 365px;
+  width: 360px;
+  height: 360px;
   text-align: center;
   border-radius: 50%;
   border-style: solid;
-  border-width: 3px;
-  border-color: black;
+  border-width: 5px;
+  border-color: purple;
+  color: purple
 }
+
 div.schedule-date {
   font-weight: bold;
+  color: purple;
 }
 div.schedule-content {
   font-size: 12px;
   text-align: center;
+  color: purple
+}
+#speakers{
+  
 }
 ul.speakers {
   list-style: inline;
