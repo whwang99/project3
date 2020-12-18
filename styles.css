@@ -51,7 +51,7 @@ font-size: 13px;
 .buy-tickets-button:hover{
   background-color: coral;
   color: white;
-  
+  /*transition*/
   border-style: solid;
   border-radius: 50%;
   border-width: 5px;
