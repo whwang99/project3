@@ -2,7 +2,7 @@
   box-sizing: border-box;
   font-family: 'JetBrains Mono', monospace;
 }
-@media (min-width: %) {
+
 header {
   border-style: solid;
   border-width: 3px;
@@ -14,9 +14,10 @@ header {
   height: 500px;
   border-radius: 50%;
 }
-div.tickets {
+#tickets {
   border-style: solid;
-  border-width: 3px;
+  border-radius: 50%;
+  border-width: 5px;
   border-color: black;
   text-align: center;
   position: fixed;
@@ -24,7 +25,12 @@ div.tickets {
   right: 200px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+
+  text-align: center;
+
+vertical-align: middle;
+line-height: 300px;       /* The same as your div height */
+  
 }
 div.about {
   position: relative;
@@ -122,13 +128,5 @@ footer.form {
   width: 350px;
   height: 125px;
   margin: 0 auto;
-}
-
-}
-
-@media (min-width: 800px) {
-  body {
-    background-color: gold;
-  }
 }
 
