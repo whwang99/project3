@@ -143,15 +143,12 @@ text-align: center;
 .speaker-card {
 list-style: inline;
   text-align: justify;
-  width: 350px;
   list-style: none;
-  padding-left: 18px;
   position: center;
   background-position: center;
   border-top: 3px solid;
   margin-bottom: 24px;
   padding: 10px;
-  transition: all 300ms ease-in;
   border-radius: 25px;
   text-align: left;
   border-style: solid;
@@ -166,7 +163,7 @@ list-style: inline;
 img.speaker-photo {
   float: left;
   width: 200px;
-  height: 250px;
+  height: 275px;
   object-fit: cover;
   padding: 15px;
 }
