@@ -118,7 +118,7 @@ div.schedule-date {
   color: purple;
 }
 div.schedule-content {
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
   color: purple
 }
@@ -127,14 +127,17 @@ div.schedule-content {
   display: table;
   width: 350px;
 }
+.speakers-title{
+text-align: center;
+}
+/*why is the center align... not centered???*/
 
 ul.speakers {
 list-style: inline;
   text-align: justify;
   width: 350px;
   list-style: none;
-  padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 18px;
   position: center;
 }
 .speaker-card {
