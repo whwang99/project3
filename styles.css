@@ -53,9 +53,23 @@ a.navigation-bar:visited{
   color:white;
 }
 
-
 /*I just based this off of my iphone7 
 how to make it adaptable across phones*/
+
+.return-to-top:link{
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 2px;
+  text-align: center;
+  position: fixed;
+  top: 755px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 55px;
+}
 
 .buy-tickets-button:link{
   border-style: solid;
@@ -233,15 +247,14 @@ header{
   position:relative;
   left: 100px;
 }
+
+/* how do you determine hierarchy?????? why does the buy
+ticket sometimes go over and under the other elements*/
+
 .buy-tickets-button:link{
   position: fixed;
   top: 200px;
   right: 200px;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 143px;
 }
 
 nav{
@@ -264,7 +277,7 @@ nav{
   vertical-align: middle;
   line-height: 200px;
   position:relative;
-  left: 800px;
+  left: 650px;
 }
 
 #schedule{
