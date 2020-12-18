@@ -86,6 +86,7 @@ how to make it adaptable across phones*/
   vertical-align: middle;
   line-height: 200px;
   position: center;
+  padding:12px;
 }
 
 /* struggling with centering content in the middle of the box!*/
@@ -95,6 +96,7 @@ how to make it adaptable across phones*/
   line-height: 3px;
   position: center;
 }
+/* how do you make the content adapt to the shape?*/
 
 #schedule{
   position: center;
@@ -118,7 +120,7 @@ div.schedule-content {
   color: purple
 }
 #speakers{
-
+position: center;
 }
 ul.speakers {
   list-style: inline;
