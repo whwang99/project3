@@ -1,19 +1,23 @@
 * {
   box-sizing: border-box;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 header {
   border-style: solid;
-  border-width: 3px;
+  border-width: 5px;
   border-color: black;
   text-align: center;
-  position: relative;
-  left: 100px;
-  width: 500px;
-  height: 500px;
+  position: left
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
 }
+
 #tickets {
   border-style: solid;
   border-radius: 50%;
@@ -25,13 +29,11 @@ header {
   right: 200px;
   width: 150px;
   height: 150px;
-
   text-align: center;
-
-vertical-align: middle;
-line-height: 300px;       /* The same as your div height */
-  
+  vertical-align: middle;
+  line-height: 150px;
 }
+
 div.about {
   position: relative;
   left: 550px;
@@ -57,9 +59,9 @@ div.schedule {
 div.schedule-date {
   font-weight: bold;
 }
-div.schedule-content{
-    font-size: 12px;
-    text-align: center;
+div.schedule-content {
+  font-size: 12px;
+  text-align: center;
 }
 ul.speakers {
   list-style: inline;
@@ -77,8 +79,8 @@ div.table {
 }
 .speaker-card {
   background-position: center;
-  border-top: 3px solid ;
-    margin-bottom: 24px;
+  border-top: 3px solid;
+  margin-bottom: 24px;
   padding: 10px;
   transition: all 300ms ease-in;
   border-radius: 25px;
@@ -91,29 +93,29 @@ div.table {
   height: 300px;
   overflow: scroll;
 }
-img.speaker-photo{
-    float: left;
-    width:  200px;
-    height: 250px;
-    object-fit: cover;
-    padding: 15px;
+img.speaker-photo {
+  float: left;
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  padding: 15px;
 }
 .talks-card {
-    background-position: center;
-    border-top: 3px solid #22333B;
-    margin-bottom: 24px;
-    padding: 12px;
-    transition: all 300ms ease-in;
-    border-radius: 25px;
-    text-align: left;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    width: 425px;
+  background-position: center;
+  border-top: 3px solid #22333B;
+  margin-bottom: 24px;
+  padding: 12px;
+  transition: all 300ms ease-in;
+  border-radius: 25px;
+  text-align: left;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  width: 425px;
 }
-img.author-photo{
-    width: 400px;
-    position:center;
+img.author-photo {
+  width: 400px;
+  position: center;
 }
 ul {
   list-style-type: none;
@@ -129,4 +131,3 @@ footer.form {
   height: 125px;
   margin: 0 auto;
 }
-
