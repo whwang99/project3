@@ -159,7 +159,6 @@ list-style: inline;
   height: 300px;
   overflow: scroll;
 }
-
 img.speaker-photo {
   float: left;
   width: 200px;
@@ -179,6 +178,21 @@ img.speaker-photo {
   border-width: 3px;
   border-color: black;
   width: 425px;
+  list-style: inline;
+  text-align: justify;
+  list-style: none;
+  position: center;
+  background-position: center;
+  border-top: 3px solid;
+  margin-bottom: 24px;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: left;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  background-position: center;
+  width: 450px;
   
 }
 img.author-photo {
@@ -197,5 +211,5 @@ footer.form {
   padding: 20px;
   width: 350px;
   height: 125px;
-  margin: 0 auto;
+  position:center;
 }
