@@ -64,6 +64,7 @@ a.navigation-bar:visited{
   text-align: center;
   vertical-align: middle;
   line-height: 53px;
+  z-index: 10;
 }
 
 .buy-tickets-button:link{
@@ -81,10 +82,12 @@ a.navigation-bar:visited{
   text-align: center;
   vertical-align: middle;
   line-height: 143px;
+  z-index: 10;
 }
 .buy-tickets-button:visited{
   text-decoration: none;
   color: coral;
+  z-index: 10;
 }
 .buy-tickets-button:hover{
   background-color: coral;
@@ -95,6 +98,7 @@ a.navigation-bar:visited{
   border-color:coral;
   text-align: center;
   position: fixed;
+  z-index: 10;
 }
 
 h2{
@@ -156,8 +160,13 @@ div.schedule-content {
   font-size: 15px;
   text-align: center;
   color: white;
-  margin: 0;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 #speakers{
   position:center;
   display: table;
@@ -241,12 +250,9 @@ footer.form {
 @media (min-width:520px) {
 
 header{
-  border-style: solid;
-  border-width: 5px;
-  border-color: lightblue;
-  width: 540px;
-  height: 550px;
-  border-radius: 50%;
+ 
+  width: 600px;
+  height: 600px;
   position:relative;
   left: 100px;
 }
@@ -257,7 +263,7 @@ ticket sometimes go over and under the other elements*/
 .buy-tickets-button:link{
   position: fixed;
   top: 200px;
-  right: 200px;
+  right: 180px;
 }
 
 nav{
@@ -269,29 +275,20 @@ nav{
   
 }
 #about{
-  width: 540px;
-  height: 540px;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 5px;
-  color:white;
-  border-color: green;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 200px;
+  width: 560px;
+  height: 560px;
   position:relative;
-  left: 650px;
+  left: 630px;
 }
 
 #schedule{
   position: relative;
   left: 200px;
-  width: 540px;
-  height: 540px;
-  text-align: center;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 5px;
+  width: 600px;
+  height: 600px;
+  padding: 15px;r
+  
+}
 }
 
 /* I simply do not understand how to arrange the cards 
