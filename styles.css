@@ -172,19 +172,14 @@ div.schedule-content {
 }
 
 .speakers-card {
-  list-style: inline;
   text-align: justify;
   width: 350px;
   list-style: none;
   padding-left: 18px;
-  position: center;
 }
 .speaker-card {
-  list-style: inline;
   text-align: justify;
   list-style: none;
-  position: center;
-  background-position: center;
   margin-bottom: 24px;
   padding: 10px;
   border-radius: 25px;
@@ -286,8 +281,8 @@ footer.form {
 }
 
 @media (min-width: 960px) {
-  .speakers-card {
-    display: inline block;
+  li.speaker-card {
+    display: inline-block;
     vertical-align: top;
   }
 
