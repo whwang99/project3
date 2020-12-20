@@ -166,20 +166,15 @@ div.schedule-content {
 }
 
 #speakers {
-  position: center;
-  display: table;
   width: 350px;
 }
-
 .speakers-card {
   text-align: justify;
   width: 350px;
-  list-style: none;
   padding-left: 18px;
 }
 .speaker-card {
   text-align: justify;
-  list-style: none;
   margin-bottom: 24px;
   padding: 10px;
   border-radius: 25px;
@@ -191,6 +186,7 @@ div.schedule-content {
   width: 450px;
   height: 300px;
   overflow: scroll;
+  display: inline-block;
 }
 img.speaker-photo {
   float: left;
@@ -281,7 +277,7 @@ footer.form {
 }
 
 @media (min-width: 960px) {
-  li.speaker-card {
+  .speaker-card {
     display: inline-block;
     vertical-align: top;
   }
