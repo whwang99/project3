@@ -103,7 +103,7 @@ a.navigation-bar:visited {
 
 h2 {
   font-size: 24px;
-  line-height: 5;
+  line-height: 1;
   margin: 0px;
   padding: 0px;
 }
@@ -154,7 +154,7 @@ h2 {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 60px;
+      padding: 65px;
 }
 
 div.schedule-date {
@@ -235,7 +235,7 @@ footer.form {
   border-color: black;
   padding: 20px;
   width: 350px;
-  height: 125px;
+  height: 220px;
   position: center;
 }
 
@@ -281,6 +281,11 @@ footer.form {
 
 @media (min-width: 960px) {
   .speaker-card {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .talks-card{
     display: inline-block;
     vertical-align: top;
   }
